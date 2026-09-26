@@ -1,0 +1,19 @@
+{
+  "architecture": "YOLOv8 Nano Custom Waste Detector",
+  "input_resolution": [
+    640,
+    640
+  ],
+  "classes": [
+    "plastic_bottle",
+    "plastic_bag",
+    "fishing_net",
+    "other_waste"
+  ],
+  "num_classes": 4,
+  "sample_detections_evaluated": 90,
+  "estimated_precision": 0.885,
+  "estimated_recall": 0.852,
+  "estimated_mAP50": 0.892,
+  "estimated_mAP50_95": 0.674
+}
