@@ -1,0 +1,6 @@
+path: C:/Users/aruni/Desktop/New folder/data/yolo_dataset
+train: train/images
+val: val/images
+
+nc: 4
+names: ['plastic_bottle', 'plastic_bag', 'fishing_net', 'other_waste']
