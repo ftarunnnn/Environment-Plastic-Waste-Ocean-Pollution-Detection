@@ -1,0 +1,45 @@
+{
+  "ml_dataset": {
+    "total_samples": 2500,
+    "features": [
+      "sample_id",
+      "latitude",
+      "longitude",
+      "water_temp_c",
+      "ph_level",
+      "turbidity_ntu",
+      "dissolved_oxygen_mg_l",
+      "salinity_psu",
+      "microplastic_particles_m3",
+      "macroplastic_count_km2",
+      "coastal_proximity_km",
+      "wave_height_m",
+      "ocean_current_speed_m_s",
+      "industrial_discharge_score",
+      "pollution_index",
+      "pollution_level"
+    ],
+    "pollution_levels": {
+      "Medium": 1620,
+      "Low": 533,
+      "High": 334,
+      "Critical": 13
+    },
+    "file_path": "data/raw/ocean_water_quality.csv"
+  },
+  "dl_dataset": {
+    "total_images": 300,
+    "image_size": [
+      640,
+      640
+    ],
+    "classes": [
+      "plastic_bottle",
+      "plastic_bag",
+      "fishing_net",
+      "other_waste"
+    ],
+    "image_dir": "data/raw/images",
+    "label_dir": "data/raw/labels"
+  }
+}
