@@ -1,0 +1,39 @@
+{
+  "ml_regression_evaluation": {
+    "xgboost": {
+      "mae": 2.1143365712483724,
+      "rmse": 2.659352497487519,
+      "r2_score": 0.9606535971911077
+    },
+    "random_forest": {
+      "mae": 2.2405389710087795,
+      "rmse": 2.8107672779129254,
+      "r2_score": 0.9560455350521687
+    }
+  },
+  "ml_classification_evaluation": {
+    "random_forest": {
+      "accuracy": 0.896,
+      "precision": 0.8906920389777533,
+      "recall": 0.896,
+      "f1_score": 0.8928584896584895
+    },
+    "xgboost": {
+      "accuracy": 0.8986666666666666,
+      "precision": 0.8983341604631927,
+      "recall": 0.8986666666666666,
+      "f1_score": 0.8979179161588756
+    }
+  },
+  "dl_yolo_object_detection_evaluation": {
+    "Precision": 0.885,
+    "Recall": 0.852,
+    "mAP@0.5": 0.892,
+    "mAP@0.5:0.95": 0.674,
+    "Mean IoU": 0.81
+  },
+  "error_analysis": {
+    "false_positives": "Occurs primarily when water glare or wave crests mimic transparent plastic bag reflections.",
+    "false_negatives": "Occurs when micro-debris (<15px) or deeply submerged fishing nets present low contrast against deep water background."
+  }
+}
