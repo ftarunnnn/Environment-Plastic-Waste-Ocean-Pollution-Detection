@@ -1,0 +1,24 @@
+{
+  "dataset_sample_size": 2500,
+  "pollution_level_counts": {
+    "Medium": 1620,
+    "Low": 533,
+    "High": 334,
+    "Critical": 13
+  },
+  "mean_pollution_index": 35.681216000000006,
+  "max_microplastic_particles_m3": 3500.0,
+  "top_correlated_with_pollution_index": {
+    "pollution_index": 1.0,
+    "microplastic_particles_m3": 0.9279231061486872,
+    "macroplastic_count_km2": 0.9002747448129825,
+    "industrial_discharge_score": 0.4856322079402223,
+    "coastal_proximity_km": 0.4732484241617757
+  },
+  "dl_bounding_box_counts": {
+    "plastic_bottle": 199,
+    "plastic_bag": 177,
+    "fishing_net": 178,
+    "other_waste": 165
+  }
+}
