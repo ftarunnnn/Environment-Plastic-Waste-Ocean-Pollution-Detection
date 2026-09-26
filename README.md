@@ -13,6 +13,8 @@ Predict ocean pollution risk levels using multi-parametric environmental telemet
 ## 📌 Project Overview
 This project presents an end-to-end AI framework combining **Machine Learning (ML)** for environmental pollution risk index prediction and **Deep Learning (DL / Computer Vision)** for real-time plastic waste object detection. The platform features an interactive visual Streamlit dashboard with real-time risk calculators, live bounding box image detection, hotspot geographic mapping, performance analytics, and automated report exports.
 
+For a detailed breakdown of all tools, frameworks, and packages used, see [`docs/TECH_STACK_AND_DEPENDENCIES.md`](file:///c:/Users/aruni/Desktop/New%20folder/docs/TECH_STACK_AND_DEPENDENCIES.md).
+
 ---
 
 ## 🛠️ System Architecture
